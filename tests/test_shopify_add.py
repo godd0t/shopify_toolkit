@@ -75,8 +75,8 @@ async def test_shopify_list_products_tool_execute(mock_list_products, shopify_li
 
 
 async def test_shopify_list_verify():
-    token = "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"
-    store_url = "https://a6cc66.myshopify.com"
+    token = "token"
+    store_url = "store_url"
     helper = ShopifyHelper(token, store_url)
 
     # Fetch the first page of products
