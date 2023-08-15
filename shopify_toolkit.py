@@ -1,9 +1,9 @@
 from abc import ABC
 from typing import List
 from superagi.tools.base_tool import BaseTool, BaseToolkit
-from shopify_add_product import ShopifyAddProductTool
-from tool_config_key_type import ToolConfigKeyType
-from tool_configuration import ToolConfiguration
+from actions.shopify_add_product import ShopifyAddProductTool
+from actions.tool_config_key_type import ToolConfigKeyType
+from actions.tool_configuration import ToolConfiguration
 
 
 class ShopifyToolkit(BaseToolkit, ABC):

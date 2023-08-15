@@ -1,9 +1,9 @@
 import pytest
 from unittest.mock import MagicMock, patch
 
-from shopify_add_product import ShopifyAddProductTool, ShopifyAddProductSchema
-from shopify_list_products import ShopifyListProductsTool, ShopifyListProductsSchema
-from shopify_helper import ShopifyHelper
+from actions.shopify_add_product import ShopifyAddProductTool, ShopifyAddProductSchema
+from actions.shopify_list_products import ShopifyListProductsTool, ShopifyListProductsSchema
+from actions.shopify_helper import ShopifyHelper
 
 
 def test_shopify_add_product_schema():

@@ -1,4 +1,4 @@
-from .tool_config_key_type import ToolConfigKeyType
+from actions.tool_config_key_type import ToolConfigKeyType
 
 
 class ToolConfiguration:

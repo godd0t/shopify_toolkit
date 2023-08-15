@@ -1,6 +1,6 @@
 from typing import Type, List
 from pydantic import BaseModel, Field
-from shopify_helper import ShopifyHelper
+from actions.shopify_helper import ShopifyHelper
 from superagi.tools.base_tool import BaseTool
 
 
